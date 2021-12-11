@@ -252,6 +252,130 @@ h1, h2 {
 }
 
 .intro__wrapper {
-  margin-top: 6.5rem;
+  margin: 6.5rem 0 18.6rem;
+}
+
+.intro__image-container {
+  margin-bottom: 5.6rem;
+}
+
+.intro__heading-sm {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  letter-spacing: -0.39px;
+  margin-bottom: 1rem;
+}
+
+.intro__content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4.8rem;
+}
+
+.highlights {
+  margin-bottom: 9rem;
+}
+
+.highlights__image {
+  margin: 6.4rem 0 13rem;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5.6rem;
+  margin-bottom: 13.1rem;
+}
+
+.features__icon {
+  margin-bottom: 4rem;
+}
+
+.features__heading {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  letter-spacing: -0.39px;
+  margin-bottom: 1.8rem;
+}
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5.9rem;
+  margin-bottom: 17rem;
+}
+
+.companies__logo {
+  width: 13.9rem;
+}
+
+.outro {
+  margin-bottom: 17rem;
+}
+
+.outro__heading {
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.46px;
+  margin-bottom: 1.6rem;
+}
+
+.outro__paragraph {
+  margin-bottom: 4.6rem;
+}
+
+.footer {
+  padding: 5.2rem 0;
+  background: #9fabb2;
+}
+
+.footer a {
+  color: #4c545d;
+}
+
+.footer__logo {
+  width: 55px;
+  margin-bottom: 4rem;
+}
+
+.footer__link {
+  margin-bottom: 2rem;
+  display: block;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.14px;
+}
+
+.footer__social-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4rem;
+  margin-top: 4.8rem;
+}
+
+.footer__social-block .fab {
+  font-size: 2.4rem;
 }
 /*# sourceMappingURL=style.css.map */
