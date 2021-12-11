@@ -1,3 +1,21 @@
 @import 'normalize','settings','variables';
 
 //TYPOGRAPHY AND COLORS ----START
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color:$color-main;
+}
+
+h1, h2 {
+    color: $color-heading;
+    font-weight: 600;
+}
+
+//TYPOGRAPHY AND COLORS ----END
