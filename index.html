@@ -34,16 +34,18 @@
     </section>
   </header>
 
-  <main class="main pd-2">
-    <section class="intro">
-      <h2 class="intro__heading snippet__heading">
-        Keep track of your snippets
-      </h2>
-      <p class="intro__paragraph snippet__paragraph">
-        Clipboard instantly stores any item you copy in the cloud, 
-        meaning you can access your snippets immediately on all your 
-        devices. Our Mac and iOS apps will help you organize everything.
-      </p>
+  <main class="main">
+    <section class="intro pd-2">
+      <div class="intro__content-wrapper">
+        <h2 class="intro__heading snippet__heading">
+          Keep track of your snippets
+        </h2>
+        <p class="intro__paragraph snippet__paragraph">
+          Clipboard instantly stores any item you copy in the cloud, 
+          meaning you can access your snippets immediately on all your 
+          devices. Our Mac and iOS apps will help you organize everything.
+        </p>
+      </div>
       <div class="intro__wrapper">
         <div class="intro__image-container">
           <img src="images/image-computer.png" alt="computer" class="intro__image">
@@ -76,70 +78,82 @@
         </div>
       </div>
     </section>
-    <section class="highlights">
+    <section class="highlights pd-2">
       <div class="highlights__highlight">
-        <h2 class="highlights__heading snippet__heading">
-          Access Clipboard anywhere
-        </h2>
-        <p class="highlights__paragraph snippet__paragraph">
-          Whether you’re on the go, or at your computer, you can access all your Clipboard 
-          snippets in a few simple clicks.
-        </p>
+        <div class="highlights__highlight-wrapper">
+          <h2 class="highlights__heading snippet__heading">
+            Access Clipboard anywhere
+          </h2>
+          <p class="highlights__paragraph snippet__paragraph">
+            Whether you’re on the go, or at your computer, you can access all your Clipboard 
+            snippets in a few simple clicks.
+          </p>
+        </div>
         <img src="images/image-devices-cropped.png" alt="devices" class="highlights__image">
       </div>
-      <div class="highlights__highlight">
-        <h2 class="highlights__heading snippet__heading">
+    </section>
+    <section class="features pd-2">
+      <div class="features__intro">
+        <h2 class="features__intro-heading snippet__heading">
           Supercharge your workflow
         </h2>
-        <p class="highlights__paragraph">
+        <p class="features__paragraph">
           We’ve got the tools to boost your productivity.
         </p>
       </div>
+      <div class="features__tools">
+        <div class="features__feature">
+          <div class="features__icon-container">
+            <img src="images/icon-blacklist.svg" alt="blacklists" class="features__icon">
+          </div>
+          <h2 class="features__heading">
+            Create blacklists
+          </h2>
+          <p class="features__paragraph">
+            Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+          </p>
+        </div>
+        <div class="features__feature">
+          <div class="features__icon-container">
+            <img src="images/icon-text.svg" alt="text snippets" class="features__icon">
+          </div>
+          <h2 class="features__heading">
+            Plain text snippets
+          </h2>
+          <p class="features__paragraph">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </div>
+        <div class="features__feature">
+          <div class="features__icon-container">
+            <img src="images/icon-preview.svg" alt="sneak preview" class="features__icon">
+          </div>
+          <h2 class="features__heading">
+            Sneak preview
+          </h2>
+          <p class="features__paragraph">
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </div>
+      </div>
     </section>
-    <section class="features">
-      <div class="features__feature">
-        <img src="images/icon-blacklist.svg" alt="blacklists" class="features__icon">
-        <h2 class="features__heading">
-          Create blacklists
-        </h2>
-        <p class="features__paragraph">
-          Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-        </p>
-      </div>
-      <div class="features__feature">
-        <img src="images/icon-text.svg" alt="text snippets" class="features__icon">
-        <h2 class="features__heading">
-          Plain text snippets
-        </h2>
-        <p class="features__paragraph">
-          Remove unwanted formatting from copied text for a consistent look.
-        </p>
-      </div>
-      <div class="features__feature">
-        <img src="images/icon-preview.svg" alt="sneak preview" class="features__icon">
-        <h2 class="features__heading">
-          Sneak preview
-        </h2>
-        <p class="features__paragraph">
-          Quick preview of all snippets on your Clipboard for easy access.
-        </p>
-      </div>
-    </section>
-    <section class="companies">
+    <section class="companies pd-2">
       <img src="images/logo-google.png" alt="Google" class="companies__logo">
       <img src="images/logo-ibm.png" alt="IBM" class="companies__logo">
       <img src="images/logo-microsoft.png" alt="Microsoft" class="companies__logo">
       <img src="images/logo-hp.png" alt="Hewlett Packard" class="companies__logo">
       <img src="images/logo-vector-graphics.png" alt="Vector Graphics" class="companies__logo">
     </section>
-    <section class="outro">
-      <h2 class="outro__heading">
-        Clipboard for iOS and Mac OS
-      </h2>
-      <p class="outro__paragraph">
-        Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-        and you’re ready to start adding to your clipboard.
-      </p>
+    <section class="outro pd-2">
+      <div class="outro__content">
+        <h2 class="outro__heading">
+          Clipboard for iOS and Mac OS
+        </h2>
+        <p class="outro__paragraph">
+          Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+          and you’re ready to start adding to your clipboard.
+        </p>
+      </div>
       <div class="hero__links">
         <a href="#" class="outro__link download-link download-link__primary" aria-label="Download for iOS">Download for iOS</a>
         <a href="#" class="outro__link download-link download-link__secondary" aria-label="Download for Mac">Download for Mac</a>
